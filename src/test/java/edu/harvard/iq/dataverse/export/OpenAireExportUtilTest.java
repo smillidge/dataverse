@@ -716,7 +716,7 @@ public class OpenAireExportUtilTest {
             xmlw.writeEndElement();
         }
         xmlw.close();
-        Assert.assertEquals("<root />",
+        Assert.assertEquals("<root/>",
                 sw.toString());
     }
 
@@ -782,7 +782,7 @@ public class OpenAireExportUtilTest {
         }
 
         xmlw.close();
-        Assert.assertEquals("<root />",
+        Assert.assertEquals("<root/>",
                 sw.toString());
     }
 
@@ -903,7 +903,7 @@ public class OpenAireExportUtilTest {
         OpenAireExportUtil.writeAccessRightsElement(xmlw, dto, null);
         xmlw.close();
         Assert.assertEquals("<rightsList>"
-                + "<rights rightsURI=\"info:eu-repo/semantics/closedAccess\" />"
+                + "<rights rightsURI=\"info:eu-repo/semantics/closedAccess\"/>"
                 + "<rights rightsURI=\"https://creativecommons.org/publicdomain/zero/1.0/\">"
                 + "CC0 Waiver</rights></rightsList>",
                 sw.toString());
@@ -938,8 +938,8 @@ public class OpenAireExportUtilTest {
         OpenAireExportUtil.writeAccessRightsElement(xmlw, dto, null);
         xmlw.close();
         Assert.assertEquals("<rightsList>"
-                + "<rights rightsURI=\"info:eu-repo/semantics/restrictedAccess\" />"
-                + "<rights /></rightsList>",
+                + "<rights rightsURI=\"info:eu-repo/semantics/restrictedAccess\"/>"
+                + "<rights/></rightsList>",
                 sw.toString());
     }
 
@@ -972,8 +972,8 @@ public class OpenAireExportUtilTest {
         OpenAireExportUtil.writeAccessRightsElement(xmlw, dto, null);
         xmlw.close();
         Assert.assertEquals("<rightsList>"
-                + "<rights rightsURI=\"info:eu-repo/semantics/closedAccess\" />"
-                + "<rights /></rightsList>",
+                + "<rights rightsURI=\"info:eu-repo/semantics/closedAccess\"/>"
+                + "<rights/></rightsList>",
                 sw.toString());
     }
 
@@ -1162,7 +1162,7 @@ public class OpenAireExportUtilTest {
             xmlw.writeEndElement();
         }
         xmlw.close();
-        Assert.assertEquals("<root />",
+        Assert.assertEquals("<root/>",
                 sw.toString());
     }
 

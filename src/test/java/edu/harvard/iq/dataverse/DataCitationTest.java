@@ -259,7 +259,7 @@ public class DataCitationTest {
            "<records>" +
            "<record>" +
            "<ref-type name=\"Dataset\">59</ref-type>" +
-           "<contributors />" +
+           "<contributors/>" +
            "<titles><title></title></titles>" +
            "<section>1955-11-05</section>" +
            "<dates><year>1955</year></dates>" +
